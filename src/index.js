@@ -24,22 +24,22 @@ import Card from "./Cards";
 import './index.css';
 import sdata from './sdata';
 
-console.log(ncard);
-function ncard(val){
-    return(
-        <Card imgsrc={val.imgsrc} 
-        title={val.title}
-        sname={val.sname}
-        link={val.link}
-        />
-        )
-}
+// console.log(ncard);
+// function ncard(val){
+//     return(
+//         <Card imgsrc={val.imgsrc} 
+//         title={val.title}
+//         sname={val.sname}
+//         link={val.link}
+//         />
+//         )
+// }
 
 ReactDOM.render(
 <>
 <h1 className='heading_style'>List of Top 5 Netflix Series </h1>
 
-{sdata.map(ncard)}
+// {sdata.map(ncard)}
 {sdata.map((val)=>{
     return(
         <Card imgsrc={val.imgsrc} 
